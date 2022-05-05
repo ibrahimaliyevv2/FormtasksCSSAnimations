@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row .col-4{
+    margin: -2px;
+}
+
+.col-4:hover{
+    background-color: transparent;
+    animation-name: animation3;
+    animation-duration: 2s;
+}
+
+@keyframes animation3 {
+    0%   {background-color: transparent;}
+    100%   {background-color: red;}
+}
